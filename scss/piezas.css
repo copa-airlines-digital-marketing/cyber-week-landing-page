@@ -1,0 +1,374 @@
+.cm-airplane {
+  align-self: center;
+  transform: translateX(-279px);
+  grid-row: 2;
+  z-index: 3;
+  padding-top: 111px;
+  animation-name: move-plane-star;
+  animation-duration: 800ms;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.at-copa {
+  grid-row: 4;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+
+@media (min-width: 320px) {
+  .cm-airplane {
+    transform: translateX(-300px);
+    padding-top: 160px;
+  }
+}
+
+@media (min-width: 425px) {
+  .cm-airplane {
+    transform: translateX(-300px);
+    padding-top: 182px;
+  }
+}
+
+@media (min-width: 375px) {
+  .cm-airplane {
+    transform: translateX(-800px);
+  }
+}
+
+@media (min-width: 655px) {
+  .cm-airplane {
+    transform: translateX(-1000px);
+    padding-top: 164px;
+  }
+}
+
+@media (min-width: 739px) {
+  .cm-airplane {
+    transform: translateX(-1200px);
+    padding-top: 153px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cm-airplane {
+    transform: translateX(-2500px);
+    padding-top: 64px;
+  }
+}
+
+.neon-area {
+  visibility: hidden;
+  justify-self: center;
+  animation-name: appear-neon;
+  animation-duration: 800ms;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.destinations-area {
+  position: relative;
+  padding-top: 60px;
+}
+
+@media (min-width: 320px) {
+  .destinations-area {
+    padding-top: 97px;
+  }
+}
+
+@media (min-width: 390px) {
+  .destinations-area {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .destinations-area {
+    padding-top: 102px;
+  }
+}
+
+@keyframes appear-neon {
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes move-plane-star {
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.neon-area {
+  grid-row: 3;
+}
+
+.neon-green {
+  z-index: 1;
+  position: absolute;
+  animation: remove-green-neon 1s steps(5, start) infinite;
+}
+
+@media (min-width: 768px) {
+  .neon-green {
+    height: 150px;
+  }
+}
+
+@keyframes remove-green-neon {
+  to {
+    visibility: hidden;
+  }
+}
+
+.neon-blue {
+  z-index: 0;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .neon-blue {
+    height: 150px;
+  }
+}
+
+@keyframes remove-blue-neon {
+  to {
+    visibility: hidden;
+  }
+}
+
+.cristo-redentor {
+  position: absolute;
+  z-index: 2;
+  height: 150px;
+  transform: scale(0);
+  animation-name: enlarge-cristo;
+  animation-duration: 800ms;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 768px) {
+  .cristo-redentor {
+    height: 248px;
+    left: 11%;
+    top: 156%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cristo-redentor {
+    height: 330px;
+    left: 12%;
+    top: 81%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cristo-redentor {
+    height: 358px;
+    left: 17%;
+    top: 29%;
+  }
+}
+
+@keyframes enlarge-cristo {
+  to {
+    transform: scale(1);
+  }
+}
+
+.chichen-itza {
+  position: absolute;
+  z-index: 1;
+  height: 158px;
+  transform: scale(0);
+  animation-name: enlarge-chichen-itza;
+  animation-duration: 800ms;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 655px) {
+  .chichen-itza {
+    top: 24%;
+    left: 11%;
+    height: 237px;
+  }
+}
+
+@media (min-width: 768px) {
+  .chichen-itza {
+    top: 134%;
+    left: 11%;
+    height: 275px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .chichen-itza {
+    top: 161%;
+    left: 21%;
+    height: 265px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .chichen-itza {
+    top: 54%;
+    left: 27%;
+    height: 301px;
+  }
+}
+
+@keyframes enlarge-chichen-itza {
+  to {
+    transform: scale(1);
+  }
+}
+
+.palm {
+  position: absolute;
+  z-index: 2;
+  height: 156px;
+  transform: scale(0);
+  grid-row: 2;
+  /* top: 20%; */
+  left: 40%;
+  animation-name: enlarge-palm;
+  animation-duration: 800ms;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 655px) {
+  .palm {
+    height: 171px;
+    top: 107%;
+    left: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .palm {
+    height: 237px;
+    left: 44%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .palm {
+    height: 272px;
+    left: 44%;
+    top: 160%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .palm {
+    height: 300px;
+    left: 44%;
+    top: 96%;
+  }
+}
+
+@keyframes enlarge-palm {
+  to {
+    transform: scale(1);
+  }
+}
+
+.catedral {
+  position: absolute;
+  z-index: 2;
+  height: 153px;
+  transform: scale(0);
+  grid-row: 2;
+  left: 45%;
+  animation-name: enlarge-catedral;
+  animation-duration: 800ms;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 425px) {
+  .catedral {
+    height: 205px;
+    top: 66%;
+  }
+}
+
+@media (min-width: 655px) {
+  .catedral {
+    left: 53%;
+    height: 251px;
+    top: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .catedral {
+    left: 58%;
+    height: 237px;
+    top: 162%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .catedral {
+    height: 320px;
+    top: 96%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .catedral {
+    height: 342px;
+    top: 11%;
+    left: 55%;
+  }
+}
+
+@keyframes enlarge-catedral {
+  to {
+    transform: scale(1);
+  }
+}
+
+.cloud2 {
+  position: absolute;
+  z-index: 2;
+  height: 80px;
+  right: 0;
+  transform: translateX(108px);
+  top: 280%;
+  animation-name: move-cloud;
+  animation-duration: 800ms;
+  animation-delay: 2.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-cloud {
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@media (min-width: 320px) {
+  .cloud2 {
+    transform: translateX(300px);
+    top: 211%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cloud2 {
+    transform: translateX(1024px);
+    top: 267%;
+    height: 130px;
+  }
+}

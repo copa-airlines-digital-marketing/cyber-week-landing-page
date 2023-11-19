@@ -1,0 +1,57 @@
+.cyber-week-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 16px 1fr auto auto 16px;
+  background-color: #0032A0;
+  height: 600px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (min-width: 320px) {
+  .cyber-week-header {
+    height: 464px;
+  }
+}
+
+@media (min-width: 425px) {
+  .cyber-week-header {
+    height: 505px;
+  }
+}
+
+@media (min-width: 523px) {
+  .cyber-week-header {
+    height: 546px;
+  }
+}
+
+@media (min-width: 739px) {
+  .cyber-week-header {
+    height: 652px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cyber-week-header {
+    height: 881px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .cyber-week-header {
+    height: 900px;
+  }
+}
+
+.trazo {
+  position: absolute;
+  z-index: 0;
+  top: 289px;
+}
+
+@media (min-width: 1920px) {
+  .trazo {
+    top: 185px;
+  }
+}

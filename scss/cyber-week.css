@@ -325,10 +325,18 @@
   animation-fill-mode: forwards;
 }
 
+@media (min-width: 390px) {
+  .miami-lifeguard {
+    height: 105px;
+    left: 4%;
+    top: 156%;
+  }
+}
+
 @media (min-width: 425px) {
   .miami-lifeguard {
     height: 105px;
-    left: 11%;
+    left: 18%;
     top: 156%;
   }
 }
@@ -398,6 +406,13 @@
     top: 111%;
   }
 }
+@media (min-width: 390px) {
+  .chichen-itza {
+    height: 130px;
+    left: 12%;
+    top: 140%;
+  }
+}
 
 @media (min-width: 425px) {
   .chichen-itza {
@@ -450,7 +465,7 @@
 
 @media (min-width: 1920px) {
   .chichen-itza {
-    top: 19%;
+    top: 89%;
     left: 33%;
     height: 330px;
   }
@@ -474,6 +489,13 @@
   animation-duration: 800ms;
   animation-delay: 3s;
   animation-fill-mode: forwards;
+}
+@media (min-width: 390px) {
+  .palm {
+    height: 119px;
+    top: 165%;
+    left: 40%;
+  }
 }
 @media (min-width: 425px) {
   .palm {
@@ -519,6 +541,13 @@
     height: 269px;
     left: 49%;
     top: 71%;
+  }
+}
+@media (min-width: 1920px) {
+  .palm {
+    height: 269px;
+    left: 49%;
+    top: 142%;
   }
 }
 
@@ -597,7 +626,7 @@
 
 .castle {
   position: absolute;
-  z-index: 2;
+  z-index: 0;
   height: 153px;
   transform: scale(0);
   grid-row: 2;
@@ -608,6 +637,13 @@
   animation-fill-mode: forwards;
 }
 
+@media (min-width: 390px) {
+  .castle {
+    height: 157px;
+    top: 98%;
+    left: 52%;
+  }
+}
 @media (min-width: 425px) {
   .castle {
     height: 172px;
@@ -643,7 +679,14 @@
 @media (min-width: 1440px) {
   .castle {
     height: 370px;
-    top: 18%;
+    top: 24%;
+    left: 55%;
+  }
+}
+@media (min-width: 1920px) {
+  .castle {
+    height: 370px;
+    top: -16%;
     left: 55%;
   }
 }
